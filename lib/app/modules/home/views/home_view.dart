@@ -10,7 +10,7 @@ class HomeView extends GetView<HomeController> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'User List',
+          'Profile',
           style: GoogleFonts.poppins(), // Menggunakan font Poppins
         ),
         actions: [
